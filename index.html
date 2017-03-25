@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <script src='js/jquery-3.1.1.js'></script>
+    <script src='js/scripts.js'></script>
+    <title>Roman Numeral Identifier</title>
+  </head>
+  <body>
+    <h1 class="jumbotron" id='header'>Roman Numeralizer!</h1>
+    <div class="container">
+      <p class="well" id='info'>Simply enter an integer and the application will tell you what Roman numerals represent that integer!<br><br>
+      <em>Note: Integer must be greater than 1 but less than 4000</em></p>
+      <form id='enter-integer'>
+        <div class="form-group">
+          <label for="user-input">Enter an integer:</label>
+          <div class="input-group">
+            <input type="number" class="form-control" id='user-input'>
+            <span class="input-group-btn">
+              <button class="btn" type="submit">Numeralize!</button>
+            </span>
+          </div>
+        </div>
+      </form>
+      <div class='well' id="output">
+
+      </div>
+    </div>
+  </body>
+</html>
